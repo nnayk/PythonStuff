@@ -1,0 +1,8 @@
+make_user(
+    'Nakul',     # name
+    [                   # reviews
+        # Southside restaurants
+        make_review('Blondie\'s Pizza', 1.0),
+        make_review('Peking Express', 3.0),
+    ]
+)
